@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Board {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    gap: 0px;
+
+    width: 80vh;
+    height: 80vh;
+}
+
+.Board_Block {
+    width: auto;
+    height: auto;
+
+    outline: 1px solid black;
+}
